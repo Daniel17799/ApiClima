@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing: 1px;
+    /* background-color: #cecece; */
+    background-color: #55595c;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    background-color: #1a1a1a;
+    color: #FFF;
+    padding: 0.5rem;
+    margin-top: auto;
+    text-align: center;
+}
+
+.weather-content{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    max-width: 501px;
+    text-align: center;
+    padding: 20px 20px 50px;
+    margin: 10% auto 3px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    
+}
+
+.weather-content h1{
+    font-size: 34px;
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+.weather-content p{
+    color: #cfcfd9;
+}
+
+.result{
+    margin-bottom: 8%;
+    
+}
+
+.result p{
+    margin: 5px 0 5px;
+    color:#FFF;
+    
+}
+
+.result h2{
+    font-size: 40px;
+    line-height: 70px;
+    margin: -10px 0 10px;
+    color: #3c995c;
+    text-shadow: #000000 1px 2px;
+}
+
+.result h5{
+    font-size: 21px;
+    margin: 2px;
+    color: #3c995c;
+    text-shadow: #000000 2px 2px;
+    letter-spacing: 3px;
+}
+
+form input[type="text"], form input[type="submit"], form select{
+    width: 100%;
+    margin: 0px 0 25px;
+    display: inline-block;
+    border: 1px solid #CCC;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding:12px 20px 12px 20px;
+    font-family: 'Montserrat', sans-serif;
+    height: 3rem;
+} 
+
+form input[type="submit"]{
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #fff;;
+    color: #1a1a1a;;
+    font-weight: 600;
+    transition: width 1s;
+};
+
+form input[type="text"]:hover{
+    transition: 0.2s;
+}
+
+form input[type="submit"]:hover{
+    width: 50%;
+}
+
+.nuevaConsulta{
+    width: 100%;
+    margin: 10px auto;
+    height: 3rem;
+    cursor: pointer;
+    color: #1a1a1a;
+    font-weight: 600;
+    transition: width 1s;
+    background-color: #3c995c;
+    border-radius: 0.5rem;
+};
+
+.nuevaConsulta:hover{
+    transition: 0.3s;
+}
+.nuevaConsulta:hover{
+    width: 50%;
+}
+
+.alert-message{
+    margin: 24px;
+    color: #fff!important;
+}
+
+.fecha{
+    font-family: 'Nanum Myeongjo', serif;
+    color: #ecf0e5;
+};
+
